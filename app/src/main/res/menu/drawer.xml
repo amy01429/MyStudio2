@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_friend"
+            android:checked="true"
+            android:title="好友排行" />
+
+        <item
+            android:id="@+id/action_list"
+            android:title="統計圖表" />
+
+        <item
+            android:id="@+id/action_self"
+            android:title="個人資料" />
+
+        <item
+            android:id="@+id/action_project"
+            android:title="跑步計畫" />
+
+        <item
+            android:id="@+id/action_setting"
+            android:title="設定" />
+    </group>
+
+</menu>
